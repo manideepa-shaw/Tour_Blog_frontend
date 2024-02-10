@@ -28,6 +28,7 @@ export const PlaceList = (props) => {
                 coordinates={place.location}
                 /> )
             }
+            { console.log("Passing : "+props.items[0].location.lat ) }
             
         </ul>
     )
